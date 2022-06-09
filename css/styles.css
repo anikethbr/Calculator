@@ -9,6 +9,7 @@
 }
 #input{
     font-size: xx-large;
+    width: 90%;
     margin-bottom: 5%;
 }
 .num{
@@ -76,4 +77,11 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media (min-width:450px){
+    #input{
+        font-size: xx-large;
+        width: min-content;
+        margin-bottom: 5%;
+    }
 }
